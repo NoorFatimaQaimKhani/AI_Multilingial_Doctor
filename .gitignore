@@ -1,0 +1,16 @@
+# Secrets - never commit these
+.env
+
+# Environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Generated files
+flagged/
+*.mp3
+_test*.mp3
+
+# Pipenv files (requirements.txt is used instead)
+Pipfile
+Pipfile.lock
